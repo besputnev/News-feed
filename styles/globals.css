@@ -1,0 +1,87 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #222324;
+}
+
+h1 {
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(
+    90deg,
+    rgba(96, 17, 193, 1) 25%,
+    rgba(176, 33, 236, 0.927333733974359) 44%,
+    rgba(191, 24, 134, 1) 63%
+  );
+  text-align: center;
+  font-size: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(204, 93, 161);
+}
+
+h3 {
+  color: rgb(138, 96, 177);
+}
+
+.news-block {
+  margin: auto;
+  width: 30%;
+  background-color: #393c42;
+  margin-top: 1%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+}
+
+p {
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.one-news-block {
+  margin: auto;
+  width: 30%;
+  background-color: #393c42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.navigation {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.back-link,
+.source-link {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.back-link:hover,
+.source-link:hover {
+  color: #f135e8;
+}
